@@ -17,6 +17,8 @@ class User extends Authenticatable
      *
      * @var array<int, string>
      */
+    // マスアサインメント（$fillable）の有効化
+    protected $fillable = ['name', 'email', 'password'];
     protected $hidden = [
         'password',
         'remember_token',
