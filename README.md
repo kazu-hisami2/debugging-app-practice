@@ -21,9 +21,8 @@ gitでクローンしたユーザー登録フォームについて、エラー�
 - 提供されたプロジェクトの動作（マスアサインメントが設定されていないのでstoreでエラー表示になります。）
   <img width="1894" height="1128" alt="Image" src="https://github.com/user-attachments/assets/f48977ed-5559-43b3-98ca-3a2c0427a4bf" />
 
-- エラーの修正（マスアサインメント($fillable)をUserモデルで設定します。）
-  ・追加コード
-
+- エラーの修正（マスアサインメント($fillable)をUserモデルで設定します。）  
+・追加コード
 ```
     // マスアサインメント（$fillable）の有効化
     protected $fillable = ['name', 'email', 'password'];
