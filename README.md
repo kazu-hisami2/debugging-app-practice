@@ -22,13 +22,13 @@ gitでクローンしたユーザー登録フォームについて、エラー�
   <img width="1894" height="1128" alt="Image" src="https://github.com/user-attachments/assets/f48977ed-5559-43b3-98ca-3a2c0427a4bf" />
 
 - エラーの修正（マスアサインメント($fillable)をUserモデルで設定します。）  
-・追加コード
+<追加コード>
 ```
     // マスアサインメント（$fillable）の有効化
     protected $fillable = ['name', 'email', 'password'];
 ```
 
-・動作確認
+<動作確認>
 <img width="1908" height="1122" alt="Image" src="https://github.com/user-attachments/assets/d64cd785-621a-440f-8b0e-1af40f916a8f" />
 
 ## デバッグツール(dd()やLogファサード)による送信データやエラーメッセージの確認
