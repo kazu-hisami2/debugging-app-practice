@@ -49,7 +49,7 @@ gitでクローンしたユーザー登録フォームについて、エラー�
 
         return redirect('/users');
     }
-```  
+```    
 
 <ブラウザでの表示画面>
 <img width="425" height="433" alt="Image" src="https://github.com/user-attachments/assets/ee84bf22-c006-4d92-86d6-a12a4c791799" />
