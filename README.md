@@ -51,7 +51,7 @@ gitでクローンしたユーザー登録フォームについて、エラー�
     }
 ```    
   
-<ブラウザでの表示画面>
+<ブラウザでの表示画面>  
 <img width="425" height="433" alt="Image" src="https://github.com/user-attachments/assets/ee84bf22-c006-4d92-86d6-a12a4c791799" />
 
 送信しようとする$userデータの詳細を表示しますが、passwordはhash化かつhidden設定になっていることがわかります。
