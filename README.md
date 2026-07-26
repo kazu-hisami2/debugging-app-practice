@@ -30,7 +30,7 @@ gitでクローンしたユーザー登録フォームについて、エラー�
 <動作確認>
 <img width="1908" height="1122" alt="Image" src="https://github.com/user-attachments/assets/d64cd785-621a-440f-8b0e-1af40f916a8f" />  
   
-エラー時のHttpライフサイクルのlog表示( Storage/logs/laravel.php )
+エラー時のスタックトレース( Storage/logs/laravel.php )
 ```
 [2026-07-25 06:36:01] local.ERROR: Add [name] to fillable property to allow mass assignment on [App\Models\User]. {"exception":"[object] (Illuminate\\Database\\Eloquent\\MassAssignmentException(code: 0): Add [name] to fillable property to allow mass assignment on [App\\Models\\User]. at /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php:525)
 [stacktrace]
